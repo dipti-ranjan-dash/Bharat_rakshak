@@ -1,0 +1,26 @@
+<!-- res/drawable/selector_button.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Button appearance when pressed -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/green" /> <!-- Change to your desired color -->
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+
+    <!-- Button appearance when focused (e.g., when it gains focus through touch or keyboard) -->
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="@color/blue" /> <!-- Change to your desired color -->
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+
+    <!-- Default button appearance -->
+    <item>
+        <shape>
+            <solid android:color="@color/red" /> <!-- Change to your desired default color -->
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+</selector>

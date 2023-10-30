@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".crowd">
+
+    <!-- First CardView -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardMaxElevation="1dp"
+        app:cardPreventCornerOverlap="true">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/asim"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="platform 1"
+                android:textColor="@color/black"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Assigned Officer = Asim panda"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Worker Id = OD2878"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Task type = IT Maintenance"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Status = Active"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Active time = 4:25:00 hr"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Inactive time = 2:30:00hr"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardMaxElevation="1dp"
+        app:cardPreventCornerOverlap="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/soham"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="platform 1"
+                android:textColor="@color/black"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Assigned Officer = Tuan pradhan"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Worker Id = OD9722"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Task type = Station Master"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Status = Active"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Active time = 6:30:00 hr"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Inactive time = 0 hr"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardMaxElevation="1dp"
+        app:cardPreventCornerOverlap="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/rutu"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="platform 1"
+                android:textColor="@color/black"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Assigned Officer = Ruturaj sahu"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Worker Id = OD4783"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Task type = Inspection "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Status = Inactive"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Active time = 2:13:00 hr"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Inactive time = 3:36:00 hr"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardMaxElevation="1dp"
+        app:cardPreventCornerOverlap="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/dipti"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="platform 1"
+                android:textColor="@color/black"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Assigned Officer = Asim panda"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Worker Id = OD2878"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Task type = Flagman"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Status = Active"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Active time = 1:45:00 hr"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:text="Inactive time = 0 hr"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
